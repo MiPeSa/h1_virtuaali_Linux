@@ -11,34 +11,53 @@
 
 #### Hardware
 
+  ![Add file: Hardware](hardware.png)
+
 #### Hard Disk
 
-23:28 - Varmistin valintani, jonka jälkeen painoin finish nappia. Tämän jälkeen Debian käynnistyi automaattisesti.
+  ![Add file: Hard Disk](hard-disk)
+  
+- 23:28 Varmistin valintani, jonka jälkeen painoin Finish nappia. Tämän jälkeen Debian käynnistyi automaattisesti.
 - Käynnistyksessä kaikki tapahtui automaattisesti itsestään ilman, että jouduin painamaan mitään.
-- Virtuaalikoneen näytöllä oli hetken musta näyttö, jonka jälkeen Debianin työpöytä latautui normaalisti näytölle.
-- kuva
 
-23:35 - Avasin vasemmasta yläkulmasta sovelluksista Web Browser ja tein googleen haun Twitter. Kaikki toimi normaalisti.
+- 23:35  Avasin vasemmasta yläkulmasta sovelluksista Web Browser ja tein googleen haun Twitter. Kaikki toimi normaalisti.
 
-23:45 - Avasin Debian Installerr, jonka jälkeen avautui Installer avautui. 
-- Installer antoi seuraavaan huomion "This computer does not satisfy some of the recommended requirements for installing Debian 11" 
--kuva
+  ![Add file: Twitter haku/Verkkoselaimen testaus](web-browser-pre-install.png)
 
--Kävin asennuksen vaiheet läpi.
--Valitsin sijainniksi Eurooppa, Helsinki
-- Näppäimistön määrittelyyn laitoin valinnat
-  Generic 105-key PC (intl.), Finnish & Finnish (Macintosh)
+### Asennus Debian GLU/Linux installer (Calamares) avulla
+
+- 23:45 Avasin Calamares Installerin työpöydän vasemmasta alakulmasta.
+
+  ![Add file: Debian GNU/Linux installer](installer.png)
+
+- Kävin asennuksen vaiheet läpi.
+
+- Valitsin sijainniksi Eurooppa, Helsinki
+
+- Näppäimistön määrittelyyn laitoin valinnat:
+    Generic 105-key PC (intl.), Finnish & Finnish (Macintosh)
+  
 #### Partitions vaihe
--kuva
-#### Users
-- Loin itselleni käyttäjän.
-- kuva
 
-23:58 - Tästä etenin yhteenvetoon, jonka jälkeen painoin Install. 
-- Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done nappia oikeasta alareunasta.
+  ![Add file: Partitions](partitions.png)
+  
+#### Users käyttäjän luominen
+
+  ![Add file: Users](users.png)
+
+- 23:58 Users vaiheesta etenin yhteenvetoon, jonka jälkeen jatkoin asennukseen painamalla Install nappia oikeasta alakulmasta.
+
+- 00:15 Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done nappia oikeasta alareunasta.
+
 - Uudelleenkäynnistyksen jälkeen avautui kirjautumissivu.
+
 - Kirjauduin aikaisemmin luomillani tunnuksilla sisään
-- Testasin verkkoselaimen toiminnan ja kaikki toimi normaalisti.
+
+  ![Add file: Kirjautuminen](login-page.png)
+  
+- 00:30 Testasin verkkoselaimen toiminnan avaamalla Redditin hakukoneesta ja kaikki toimi normaalisti.
+
+  ![Add file: Reddit/verkkoselaimen testaus](web-browser-after-install.png)
 
 
 

@@ -18,7 +18,7 @@
 ![Add file: Hard Disk](hard-disk.png)
   
 - 23:28 Varmistin valintani, jonka jälkeen painoin Finish nappia.
-- 23:30 Tarkistin VirtualBoxista luomai virtuaalikoneen asetuksista(settings painike yläreunassa) "storage" kohdasta vielä, että Controller: IDE kohdan alle oli varmasti päivittynyt ISO Image oikein(debian-live-11.6.0-amd64-xfce+nonfree.iso).
+- 23:30 Tarkistin VirtualBoxista luomani virtuaalikoneen asetuksista(settings painike yläreunassa) "storage" kohdasta vielä, että Controller: IDE kohdan alle oli varmasti päivittynyt ISO Image oikein(debian-live-11.6.0-amd64-xfce+nonfree.iso).
 
 - Tämän jälkeen käynnistin virtuaalikoneen painamalla Start painiketta.
 

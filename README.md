@@ -3,22 +3,22 @@
 - Aloitin lataamalla Debianin valmiiksi koneelle tehtävän tekemistä varten.(Versio: debian-live-11.6.0-amd64-xfce+nonfree.iso)
 - Latasin samalla myös VirtualBox:in läppärille.(macOS, Intel prosessoreille tarkoitettu versio). 
 
-23:16 - VirtualBoxissa painoin Create Virtual Machine ja valitsin expert mode. Valitsin nimen, kansion, ISO Imagen, Tyypin sekä Version. Klikkasin myös "Skip Unattended Installation" ja jätin kyseisen vaiheen välistä.
+- 23:16 VirtualBoxissa painoin Create Virtual Machine ja valitsin expert mode. Valitsin nimen, kansion, ISO Imagen, Tyypin sekä Version. Klikkasin myös "Skip Unattended Installation" ja jätin kyseisen vaiheen välistä.
   
-  ![Add file: Name and Operating system](name-and-operating-system.png)
+![Add file: Name and Operating system](name-and-operating-system.png)
 
-23:20 - Kävin vaiheittain loput vaiheet: 
+- 23:20 Täytin vaiheittain loput vaiheet: 
 
 ### Hardware
 
-  ![Add file: Hardware](hardware.png)
+![Add file: Hardware](hardware.png)
 
 ### Hard Disk
 
-  ![Add file: Hard Disk](hard-disk.png)
+![Add file: Hard Disk](hard-disk.png)
   
 - 23:28 Varmistin valintani, jonka jälkeen painoin Finish nappia.
-- 23:30 Tarkistin VirtualBoxin asetuksista "storage" kohdasta vielä, että Controller: IDE kohdan alle oli päivittynyt ISO Image.(debian-live-11.6.0-amd64-xfce+nonfree.iso)
+- 23:30 Tarkistin VirtualBoxista luomai virtuaalikoneen asetuksista(settings painike yläreunassa) "storage" kohdasta vielä, että Controller: IDE kohdan alle oli varmasti päivittynyt ISO Image oikein(debian-live-11.6.0-amd64-xfce+nonfree.iso).
 
 - Tämän jälkeen käynnistin virtuaalikoneen painamalla Start painiketta.
 
@@ -26,7 +26,7 @@
 
 - 23:35 Virtuaalikoneen Linuxin työpöytä avautui. Avasin vasemmasta yläkulmasta sovelluksista verkkoselaimen(Web Browser) ja tein googleen haun Twitter. Kaikki toimi normaalisti.
 
-  ![Add file: Twitter haku/Verkkoselaimen testaus](web-browser-pre-install.png)
+![Add file: Twitter haku/Verkkoselaimen testaus](web-browser-pre-install.png)
 
 ### Asennus Debian GLU/Linux installer (Calamares) avulla
 
@@ -51,7 +51,7 @@
 
 - 23:58 Users vaiheesta etenin yhteenvetoon, jonka jälkeen jatkoin asennukseen painamalla Install nappia oikeasta alakulmasta.
 
-- 00:15 Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done nappia oikeasta alareunasta.
+- 00:15 Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done-näppäintä oikeasta alareunasta.
 
 - Uudelleenkäynnistyksen jälkeen avautui kirjautumissivu.
 
@@ -61,7 +61,7 @@
 
   ![Add file: Reddit/verkkoselaimen testaus](web-browser-after-install.png)
   
-### Lopuksi pävitykset
+### Lopuksi päivitykset
 
 - 00:40 Terminaalista hain kaikki saatavilla olevat päivitykset syöttämällä komennon.
 

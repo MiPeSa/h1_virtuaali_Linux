@@ -30,7 +30,7 @@
 
 ### Asennus Debian GLU/Linux installer (Calamares) avulla
 
-- 21:52 Avasin Calamares Installerin työpöydän vasemmasta alakulmasta.
+- 23:52 Avasin Calamares Installerin työpöydän vasemmasta alakulmasta.
 
   ![Add file: Debian GNU/Linux installer](installer.png)
 
@@ -49,17 +49,17 @@
 
   ![Add file: Users](users.png)
 
-- 22:05 Users vaiheesta etenin yhteenvetoon, jonka jälkeen jatkoin asennukseen painamalla Install nappia oikeasta alakulmasta.
+- 00:05 Users vaiheesta etenin yhteenvetoon, jonka jälkeen jatkoin asennukseen painamalla Install nappia oikeasta alakulmasta.
 
 - Jätin koneen asentamaan.
 
-- 00:15 Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done-näppäintä oikeasta alareunasta.
+- 00:20 Asennuksen päätyttyä käynnistin järjestelmän uudelleen valitsemalla Restart Now ja painamalla Done-näppäintä oikeasta alareunasta.
 
 - Uudelleenkäynnistyksen jälkeen avautui kirjautumissivu.
 
 - Kirjauduin aikaisemmin luomillani tunnuksilla sisään.
   
-- 00:25 Testasin verkkoselaimen toiminnan avaamalla Redditin hakukoneesta ja kaikki toimi normaalisti.
+- 00:30 Testasin verkkoselaimen toiminnan avaamalla Redditin hakukoneesta ja kaikki toimi normaalisti.
 
   ![Add file: Reddit/verkkoselaimen testaus](web-browser-after-install.png)
   

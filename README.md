@@ -4,6 +4,8 @@
 - Latasin samalla myös VirtualBox:in läppärille.(macOS, Intel prosessoreille tarkoitettu versio). 
 
 23:16 - VirtualBoxissa painoin Create Virtual Machine ja valitsin expert mode. Valitsin nimen, kansion, ISO Imagen, Tyypin sekä Version. Klikkasin myös "Skip Unattended Installation" ja jätin kyseisen vaiheen välistä.
+  
+  ![Add file: Name and Operating system](name-and-operating-system.png)
 
 23:20 - Kävin vaiheittain loput vaiheet: 
 

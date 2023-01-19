@@ -9,18 +9,22 @@
 
 23:20 - Kävin vaiheittain loput vaiheet: 
 
-#### Hardware
+### Hardware
 
   ![Add file: Hardware](hardware.png)
 
-#### Hard Disk
+### Hard Disk
 
-  ![Add file: Hard Disk](hard-disk)
+  ![Add file: Hard Disk](hard-disk.png)
   
-- 23:28 Varmistin valintani, jonka jälkeen painoin Finish nappia. Tämän jälkeen Debian käynnistyi automaattisesti.
-- Käynnistyksessä kaikki tapahtui automaattisesti itsestään ilman, että jouduin painamaan mitään.
+- 23:28 Varmistin valintani, jonka jälkeen painoin Finish nappia.
+- 23:30 Tarkistin VirtualBoxin asetuksista "storage" kohdasta vielä, että Controller: IDE kohdan alle oli päivittynyt ISO Image.(debian-live-11.6.0-amd64-xfce+nonfree.iso)
 
-- 23:35  Avasin vasemmasta yläkulmasta sovelluksista Web Browser ja tein googleen haun Twitter. Kaikki toimi normaalisti.
+- Tämän jälkeen käynnistin virtuaalikoneen painamalla Start painiketta.
+
+- Käynnistyessä avautui menu, josta valitsin ylimmän "Debian GNU/Linux Live..." painamalla Enter näppäintä.
+
+- 23:35 Virtuaalikoneen Linuxin työpöytä avautui. Avasin vasemmasta yläkulmasta sovelluksista verkkoselaimen(Web Browser) ja tein googleen haun Twitter. Kaikki toimi normaalisti.
 
   ![Add file: Twitter haku/Verkkoselaimen testaus](web-browser-pre-install.png)
 
@@ -51,13 +55,34 @@
 
 - Uudelleenkäynnistyksen jälkeen avautui kirjautumissivu.
 
-- Kirjauduin aikaisemmin luomillani tunnuksilla sisään
-
-  ![Add file: Kirjautuminen](login-page.png)
+- Kirjauduin aikaisemmin luomillani tunnuksilla sisään.
   
 - 00:30 Testasin verkkoselaimen toiminnan avaamalla Redditin hakukoneesta ja kaikki toimi normaalisti.
 
   ![Add file: Reddit/verkkoselaimen testaus](web-browser-after-install.png)
+  
+### Lopuksi pävitykset
+
+- 00:40 Terminaalista hain kaikki saatavilla olevat päivitykset syöttämällä komennon.
+
+    $ sudo apt-get update
+    
+- syötin salasanan, kun sitä kysyttiin.
+
+- Ajoin kaikki päivitykset syöttämällä komennon:
+
+    $ sudo apt-get -y dist-upgrade
+    
+- 00:45 Asensin vielä palomuurin sekä otin sen käyttöön seuraavilla komennoilla
+
+    $ sudo apt-get -y install ufw
+    $ sudo ufw enable
+    
+- lopuksi käynnistin vielä järjestelmän uudelleen ja tarkistin, että kaikki on kunnossa testaamalla verkkoselaimen toiminnan.
+
+Ohjeet päivityksien sekä palomuurin asentamiseen katsoin seuraavalta verkkosivulta Karvinen, Tero 2023-01-17, Install Debian on Virtualbox. Luettavissa: https://terokarvinen.com/2021/install-debian-on-virtualbox/
+
+  
 
 
 

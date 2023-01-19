@@ -65,18 +65,18 @@
 
 - 00:40 Terminaalista hain kaikki saatavilla olevat päivitykset syöttämällä komennon.
 
-    $ sudo apt-get update
+      $ sudo apt-get update
     
 - syötin salasanan, kun sitä kysyttiin.
 
 - Ajoin kaikki päivitykset syöttämällä komennon:
 
-    $ sudo apt-get -y dist-upgrade
+      $ sudo apt-get -y dist-upgrade
     
 - 00:45 Asensin vielä palomuurin sekä otin sen käyttöön seuraavilla komennoilla
 
-    $ sudo apt-get -y install ufw
-    $ sudo ufw enable
+      $ sudo apt-get -y install ufw
+      $ sudo ufw enable
     
 - lopuksi käynnistin vielä järjestelmän uudelleen ja tarkistin, että kaikki on kunnossa testaamalla verkkoselaimen toiminnan.
 
